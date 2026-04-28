@@ -32,3 +32,18 @@ The LDM operates by shifting the diffusion process from pixel space to a lower-d
 | **Reconstruction PSNR** | **33.37 dB** |
 | **Peak VRAM Usage** | ~2.05 GB (Inference) |
 | **Inference Time** | ~6.6s (50 steps on local GPU) |
+
+## 📦 Installation & Setup
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/latent-diffusion-implementation.git](https://github.com/your-username/latent-diffusion-implementation.git)
+
+# Create a virtual environment
+python -m venv venv
+python -m pip install --upgrade pip   
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install diffusers transformers accelerate pillow safetensors scikit-image matplotlib
+```
