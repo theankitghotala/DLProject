@@ -36,7 +36,7 @@ The LDM operates by shifting the diffusion process from pixel space to a lower-d
 ## 📦 Installation & Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/theankitghotala/DLProject.git](https://github.com/theankitghotala/DLProject.git)
+git clone https://github.com/theankitghotala/DLProject.git
 
 # Create a virtual environment
 python -m venv venv
